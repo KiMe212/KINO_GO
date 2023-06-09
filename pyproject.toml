@@ -9,6 +9,10 @@ packages = [{include = "pythonproject_psql"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 psycopg2 = "^2.9.6"
+fastapi = {extras = ["all"], version = "^0.96.0"}
+pyjwt = "^2.7.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-decouple = "^3.8"
 
 
 [build-system]
